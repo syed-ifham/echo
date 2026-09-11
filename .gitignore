@@ -1,18 +1,61 @@
+# IDEs and Editors
+.idea/
+**/.idea/
+*.iml
+.vscode/
+**/.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+**/.env
+**/.env*.local
+**/.env.production
+**/.env.development
+
 # Node / Frontend / Node Backend
 **/node_modules/
 **/build/
 **/dist/
 frontend/.next/
+**/.next/
 frontend/out/
+**/out/
+.turbo/
+coverage/
 
-# Environment Files
-**/.env
-**/.env*.local
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # Java Backend
 backend/java/target/
 backend/java/.gradle/
 backend/java/*.class
+**/target/
+**/.gradle/
+*.class
 
-# Machine Learning / TTS Models
+# Python / Machine Learning / TTS Models
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.mypy_cache/
 model/Chatterbox-TTS-Server
