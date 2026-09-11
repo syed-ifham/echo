@@ -1,0 +1,18 @@
+# Node / Frontend / Node Backend
+**/node_modules/
+**/build/
+**/dist/
+frontend/.next/
+frontend/out/
+
+# Environment Files
+**/.env
+**/.env*.local
+
+# Java Backend
+backend/java/target/
+backend/java/.gradle/
+backend/java/*.class
+
+# Machine Learning / TTS Models
+model/Chatterbox-TTS-Server
