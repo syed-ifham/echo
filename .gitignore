@@ -19,6 +19,7 @@ Thumbs.db
 **/.env.development
 
 # Node / Frontend / Node Backend
+
 **/node_modules/
 **/build/
 **/dist/
